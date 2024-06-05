@@ -161,7 +161,7 @@
 
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F483f5379-b857-4cb2-b114-caaa366deaad.pdf"
+                <a href="https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F22acddca-3111-4154-ad47-e89afcff9602.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -170,7 +170,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2307.08209"
+                <a href="https://arxiv.org/abs/2406.02540"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -190,7 +190,7 @@
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/A-suozhang/Ada3D"
+                <a href="https://github.com/A-suozhang/ViDiT-Q"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -825,7 +825,7 @@
         <h3 class="title is-4"> 🧭 Efficiency Improvement</h3>
         <div class="content has-text-justified">
           <p>
-            We test the efficiency improvement of MixDQ quantization with hardware profiling. As could be seen, MixDQ could achive 3-4x memory compression rate, and 1.4-1.6x latency speedup with W4A8. 
+            We test the efficiency improvement of ViDiT-Q quantization with hardware profiling. Due to lack of existing open-source dynamic quantization GPU kenrel, we measure the latency with normal INT GPU kernel, and consider the overhead dynamic quantizaiton introduces. ViDiT-Q could achive 2-3x memory compression rate, and 1.4x latency speedup with W8A8/W4A8. 
           </p>
         </div>
         <div class="content has-text-centered">
@@ -955,18 +955,18 @@
     </div>
 </section>
 
-<!-- <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{Zhao2023Ada3DE,
-      title={Ada3D : Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection},
-      author={Tianchen Zhao and Xuefei Ning and Ke Hong and Zhongyuan Qiu and Pu Lu and Yali Zhao and Linfeng Zhang and Lipu Zhou and Guohao Dai and Huazhong Yang and Yu Wang},
-      journal={ArXiv},
-      year={2023},
-      volume={abs/2307.08209},
-      url={https://api.semanticscholar.org/CorpusID:259937318}
+    <pre><code>@misc{zhao2024viditq,
+      title={ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation}, 
+      author={Tianchen Zhao and Tongcheng Fang and Enshu Liu and Wan Rui and Widyadewi Soedarmadji and Shiyao Li and Zinan Lin and Guohao Dai and Shengen Yan and Huazhong Yang and Xuefei Ning and Yu Wang},
+      year={2024},
+      eprint={2406.02540},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
     }</code></pre>
-  </div> -->
+  </div>
 
   <!-- <div class="content has-text-centered">
     <img src="./static/src/pr.png"
